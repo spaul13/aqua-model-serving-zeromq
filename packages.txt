@@ -1,0 +1,12 @@
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+bash Anaconda3-2020.11-Linux-x86_64.sh
+source ~/.bashrc
+conda create --name pytorch
+conda activate pytorch
+conda install -c pytorch pytorch
+conda install -c pytorch torchvision
+conda install -c anaconda scipy
+conda install -c anaconda pillow
+conda install -c anaconda numpy
+conda install -c anaconda statistics
+conda install -c anaconda scikit-learn

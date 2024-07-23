@@ -1,0 +1,6 @@
+Pillow
+scikit-learn
+torch
+torchvision
+opencv-python
+pyzmq
